@@ -1,0 +1,99 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: darkgreen;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    background-color: gold;
+    flex-basis: 15%;
+    height: 130px;
+}
+
+.nav {
+    display: flex;
+    background-color: aqua;
+    flex-grow: 4;
+}
+
+.container {
+
+    height: 350px;
+    background-color: rgb(22, 227, 93);
+
+}
+
+.features {
+    display: flex;
+    background-color: tomato;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.features article{
+    background-color: teal;
+    flex-grow: 2;
+    margin: 20px;
+    height: 230px;
+}
+.about{
+    height: 350px;
+    background-color: rgb(227, 22, 101);
+}
+.reviews{
+    display: flex;
+    background-color: rgb(170, 240, 18);
+    height: 300px;
+    justify-content: space-between;
+
+}
+.reviews article{
+    background-color: rgb(148, 4, 4);
+    flex-grow: 2;
+    margin: 20px;
+    height: 230px;
+    
+}
+
+.boxes{
+    display: flex;
+    background-color: rgb(240, 18, 133);
+    height: 450px;
+    justify-content: space-between;
+
+}
+.boxes article{
+    background-color: rgb(4, 62, 148);
+    flex-grow: 2;
+    margin: 20px;
+    height: 375px;
+}
+
+.contact{
+    height: 350px;
+    background-color:blueviolet;
+    display: flex;
+
+}
+.img{
+    flex-grow: 1;
+    background-color: rgb(219, 170, 23);
+    height: 350px;
+}
+.form{
+    
+    flex-grow: 1;
+    background-color: salmon;
+    height: 350px;
+}
+
+footer{
+    background-color:seagreen;
+    height: 150px;
+}
